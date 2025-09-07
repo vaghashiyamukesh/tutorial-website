@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Third Web Page</title>
+</head>
+<body>
+    <!-- container to wrap everything -->
+    <div id="container">
+        <!-- Brand of website -->
+        <head>My web site brand</head>
+        <!-- Main Navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a></li>
+                <li><a href="page2.html"> About </a></li>
+                <li> Gallery </li>
+                <li><a href="page3.html"> Contact </a></li>
+            </ul>
+        </nav> <!-- end main Navigation -->
+        <!-- main content -->
+        <main>
+            <h1>My Third Heading</h1>
+            <p>My Third paragraph.</p>
+            <img src="central_park.jpg" alt="Central Park" width="500">
+            <form action="/signup" method="post">
+                <fieldset>
+                    <legend>User personal information</legend>
+                    <label for="name">Enter your full name</label><br>
+                    <input type="text" id="name" name="name" ><br><br>
+                    <label for="email">Enter your email</label><br>
+                    <input type="email" id="email" name="email" ><br><br>
+                    <label for="password">Enter your phone </label><br>
+                    <input type="tel" id="phone" name="phone"><br><br>
+                    <label for="password">Select your gender</label><br>
+                    <input type="radio" name="gender" value="male"/> Male
+                    <input type="radio" name="gender" value="female"/> Female <br><br>
+                    <label> How should we contact you ?</label><br>
+                    <select name="contact">
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                    </select><br><br>
+                    Tells us the reason of your visit today: <br>
+                    <textarea name="reason" rows="5" cols="30"></textarea><br><br>
+                    <input type="submit" value="sign-up">
+                </fieldset>
+            </form>
+        </main>
+        <footer>&copy; Copyright 2025</footer>
+    </div><!-- End container -->
+</body>
+
+</html> 
