@@ -45,5 +45,43 @@ header{
                 color: rgb(211,218,240);
             }
 			main{
-					/* height: 400px;		 */
+					margin: 50px;
 				}
+				table{
+					margin-top: 35px;
+				}
+				table, caption, th, td{
+					border: 1px solid black;
+				}
+				th, td{
+					width: 150px;
+					height: 35px;
+					text-align: center;
+				}
+				caption{
+					text-transform: uppercase;
+					font-weight: 600;
+					height: 40px;
+					padding-top: 15px;
+					color: #753a30;
+				}
+				label{
+					display: block;
+					margin: 15px 0 0 0;
+				}
+				input {
+					width: 300px;
+				}
+				input[type="radio"] {
+					width: 25px;
+				}
+				textarea {
+					width: 300px;
+				}
+				input[type="submit"] {
+					display: block;
+					margin: 20px 0 10 0;
+					width: 100px;
+				}
+
+				
